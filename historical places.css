@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+   background-image: url('https://i.pinimg.com/236x/63/b2/87/63b287f806c267ef3975c0d9856b7fde.jpg');
+   background-attachment: scroll;
+   background-size:auto;
+   background-position: center;
+   opacity: 0.9;
+  
+
+   
+}
+
+.maindiv-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+div {
+  border-radius: 3px;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.block {
+  background-color: #2D110F;
+  color: darkkhaki;
+  border: 5px;
+  border-style: double;
+  
+}
+.block:hover{
+ background-color:#382522;
+ transform: scale(1.1);
+ transition-duration: 2s;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:darkkhaki;
+  background-image: radial-gradient(circle,#836144,#3F2E22,#311d0f);
+  border-color:darkkhaki;
+  border-style: double;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Fasthand', cursive;
+  color: darkkhaki;
+ text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) ;
+ 
+  
+}
+
+a {
+  color: darkkhaki;
+}
+
+.maindiv-2 {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.block-2 {
+  background-color: #2D110F;
+  color: darkkhaki;
+  border: 5px;
+  border-style: double;
+  
+  
+}
+.block-2:hover{
+  background-color:#382522;
+  transform: scale(1.1);
+  transition-duration: 2s;
+ }
+img{
+    border: 5px double;
+}
+
+footer {
+ 
+ padding: 20px;
+  font-size: 15px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  color: darkkhaki;
+  background-image: radial-gradient(circle,#3F2E22,#311d0f);
+  border-color: darkkhaki;
+  border-style: double;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ 
+
+  }
+.audio{
+    font-size: 30px;
+    color: darkkhaki;
+    font-family: dancing script ;
+}
+audio{
+    background-color: #2D110F;
+    width: 300px;
+    border: 5px double darkkhaki;
+   
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+  background-color:#280502;
+  border: 5px double darkkhaki;
+  padding: 5px;
+  
+}
+.fa-brands{
+  padding: 5px;
+
+}
